@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/incognito/.config/hypr"
+		},
+		{
+			"path": "../../../rofi"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {}
+}

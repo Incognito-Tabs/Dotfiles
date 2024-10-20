@@ -1,0 +1,94 @@
+body {
+    background: #121212;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a:link {
+    color: #5abf8d;
+}
+
+a:visited {
+    color: #5abf8d;
+}
+
+a:hover {
+    color: #5abf8d;
+}
+
+a:active {
+    color: #5abf8d;
+}
+
+.fullw {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#searchBar {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    width: 80%;
+    height: 70px;
+    background: #5abf8d;
+    border-radius: 50px;
+    font-family: Roboto Slab;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    border: none;
+}
+
+#searchBar:focus {
+    outline: none;
+}
+
+.no-margins {
+    margin: 0px;
+}
+
+#clock {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 127px;
+    color: #5abf8d;
+}
+
+.clock-cont {
+    position: absolute;
+    width: 60%;
+    height: 127px;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    #searchBar {
+        top: 30%;
+    }
+
+    .clock-cont {
+        top: 40%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #searchBar {
+        top: 45%;
+        width: 40%;
+        left: 30%;
+    }
+
+    .clock-cont {
+        top: 25%;
+    }
+}

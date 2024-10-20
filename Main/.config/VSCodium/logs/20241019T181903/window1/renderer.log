@@ -1,0 +1,6 @@
+2024-10-19 18:19:04.438 [info] Started local extension host with pid 3803.
+2024-10-19 18:19:29.841 [info] [perf] Render performance baseline is 29ms
+2024-10-19 18:56:23.083 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

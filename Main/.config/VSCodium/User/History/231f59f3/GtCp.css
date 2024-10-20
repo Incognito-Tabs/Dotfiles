@@ -1,0 +1,133 @@
+* {
+    font-family: monospace;
+    border: none;
+    border-radius: 0px;
+}
+
+window#waybar {
+    background-color: #121212;
+    border-bottom: 2px solid #5abf8d;
+    transition-property: background-color;
+    transition-duration: .25s;
+}
+
+.modules-left {
+    padding-left: 10px;
+}
+
+#workspaces {
+    margin: 3px 7px 3px 3px;
+    border: 0px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#workspaces button {
+    border: 0px;
+    margin: 4px 5px 4px 0px;
+    padding: 0px 4px 0px 4px;
+    color: #5abf8d;
+    transition: all 0.5s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #FFFFFF;
+    background: #5abf8d;
+}
+
+#workspaces button:hover {
+    color: #FFFFFF;
+    background: #5abf8d;
+}
+
+d tooltip {
+    background-color: #5abf8d;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 0px;
+}
+
+#window {
+    margin: 0px 15px 0px 0px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
+.modules-left>widget:first-child>#workspaces {
+    margin-left: 0;
+}
+
+.modules-right>widget:last-child>#workspaces {
+    margin-right: 0;
+}
+
+
+#custom-icon {
+    font-size: 20px;
+    color: @textcolor;
+    margin: 0px 15px 0px 0px;
+}
+
+#custom-exit {
+    margin: 0px 20px 0px 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: @iconcolor;
+}
+
+#clock {
+    font-size: 15px;
+    color: @textcolor;
+    margin: 0px 15px 0px 0px;
+}
+
+#pulseaudio {
+    font-size: 14px;
+    color: @textcolor;
+    border-radius: 15px;
+    margin: 0px 15px 0px 0px;
+}
+
+#pulseaudio.muted {
+    color: @textcolor;
+}
+
+#network {
+    font-size: 14px;
+    color: @textcolor;
+    border-radius: 15px;
+    margin: 0px 15px 0px 0px;
+}
+
+#network.ethernet {
+    color: @textcolor;
+}
+
+#network.wifi {
+    color: @textcolor;
+}
+
+#bluetooth,
+#bluetooth.on,
+#bluetooth.connected {
+    font-size: 14px;
+    color: @textcolor;
+    border-radius: 15px;
+    margin: 10px 15px 10px 0px;
+}
+
+#bluetooth.off {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+#tray {
+    margin: 0px 10px 0px 0px;
+}

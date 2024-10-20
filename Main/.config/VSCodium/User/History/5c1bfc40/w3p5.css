@@ -1,0 +1,40 @@
+* {
+	background-image: none;
+	box-shadow: none;
+	font-size:3rem
+}
+
+window {
+	background-color: #121212;
+}
+
+button {
+    border-radius: 0;
+    border-color: #5abf8d;
+	text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
+	margin: 90px 50px;
+	background-color: #181818;
+	border-style: solid;
+	border-width: 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+}
+
+button:focus, button:active, button:hover {
+	background-color: #5abf8d;
+	outline-style: none;
+}
+
+#bios {
+    background-image: url("./Images/Lock.png")
+}
+
+#shutdown {
+    background-image: url("./Images/Shutdown.png")
+}
+
+#reboot {
+    background-image: url("./Images/Reboot.png")
+}

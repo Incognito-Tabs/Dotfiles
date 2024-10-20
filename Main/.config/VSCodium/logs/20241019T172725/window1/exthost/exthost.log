@@ -1,0 +1,27 @@
+2024-10-19 17:27:27.572 [info] Extension host with pid 1464 started
+2024-10-19 17:27:27.572 [info] Skipping acquiring lock for /home/incognito/.config/VSCodium/User/workspaceStorage/28f7d9a6e1672b620ac4d21a7789c1c6.
+2024-10-19 17:27:27.775 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-19 17:27:27.794 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-19 17:27:27.822 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-19 17:27:27.918 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-19 17:27:28.270 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-19 17:27:28.280 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-19 17:27:28.349 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-19 17:27:28.426 [info] Eager extensions activated
+2024-10-19 17:27:28.456 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-19 17:27:28.466 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-19 17:32:26.634 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-19 17:32:26.668 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-19 17:32:27.585 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-10-19 17:33:19.959 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-10-19 17:33:20.975 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/incognito/.config/usr/share/wlogout/icons/lock.png'
+	at ds._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11056)
+	at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8731)
+2024-10-19 17:35:44.897 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/incognito/.config/usr/local/share/wlogout/icons/lock.png'
+	at ds._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11056)
+	at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8731)
+2024-10-19 17:35:47.185 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/incognito/.config/usr/share/wlogout/icons/lock.png'
+	at ds._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11056)
+	at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8731)
+2024-10-19 17:51:38.933 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-19 17:51:38.942 [info] Extension host with pid 1464 exiting with code 0

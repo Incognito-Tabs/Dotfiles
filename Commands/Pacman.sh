@@ -1,0 +1,1 @@
+sudo pacman -Syu --noconfirm gum git

@@ -1,0 +1,1 @@
+stow -t ~/.config -S ./Files/alacritty

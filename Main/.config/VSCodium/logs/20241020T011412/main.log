@@ -1,0 +1,4 @@
+2024-10-20 01:14:12.441 [info] update#setState disabled
+2024-10-20 01:14:12.442 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-20 01:42:12.473 [info] Extension host with pid 49967 exited with code: 0, signal: unknown.
+2024-10-20 01:42:12.506 [error] Blocked vscode-file request vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/editor/common/services/editorSimpleWorker.esm.js#TextEditorWorker

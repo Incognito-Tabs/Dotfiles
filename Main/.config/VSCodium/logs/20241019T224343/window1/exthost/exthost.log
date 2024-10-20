@@ -1,0 +1,10 @@
+2024-10-19 22:43:45.584 [info] Extension host with pid 4393 started
+2024-10-19 22:43:45.584 [info] Skipping acquiring lock for /home/incognito/.config/VSCodium/User/workspaceStorage/28f7d9a6e1672b620ac4d21a7789c1c6.
+2024-10-19 22:43:45.843 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-19 22:43:45.933 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-19 22:43:46.015 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-19 22:43:46.084 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-19 22:43:46.150 [info] Eager extensions activated
+2024-10-19 22:43:46.170 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-19 22:43:46.173 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-19 22:43:56.709 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'

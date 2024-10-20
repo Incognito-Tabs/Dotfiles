@@ -1,0 +1,104 @@
+:root {
+    --Main-Background: #121212;
+    --Darker-Background: #101010;
+    --Lighter-Background: #181818;
+    
+    --Main-Accent: #5abf8d;
+    --Darker-Accent: #326e50;
+    --Lighter-Accent: #83f3bb;
+
+    --inactive-titlebar-opacity: 1;
+}
+
+#titlebar {
+    background: var(--Main-Background) !important;
+    border: 2px solid var(--Main-Accent);
+    margin: 5px
+}
+
+#navigator-toolbox {
+    border-bottom: none !important;
+    background: var(--Main-Background) !important;
+}
+
+#alltabs-button, .titlebar-close {
+    display: none;
+}
+
+#nav-bar {
+    border-bottom: none !important;
+    background: var(--Main-Background) !important;
+}
+
+#nav-bar-customization-target {
+    background: var(--Main-Background) !important;
+   border: 2px solid var(--Main-Accent);
+    margin: 0px 5px 0px 5px
+}
+
+#PanelUI-button {
+    background: var(--Main-Background) !important;
+    border: 2px solid var(--Main-Accent);
+    margin: 0px 5px 0px 0px
+}
+
+#urlbar {
+    background: var(--Darker-Background) !important;
+}
+
+#urlbar-background {
+    background: var(--Darker-Background) !important;
+    border: none !important;
+}
+
+#urlbar-input-container {
+    border: none !important;
+}
+
+#PanelUI-menu-button {
+    padding-inline-end: 0px !important
+}
+
+#appcontent {
+    margin: 5px;
+    border: 2px solid var(--Main-Accent);
+    background: var(--Main-Background) !important;
+}
+
+#browser {
+    background: var(--Main-Background) !important;
+}
+
+.toolbarbutton-1 {
+    color: var(--Main-Accent);
+}
+
+.toolbarbutton-1:hover {
+    color: var(--Darker-Accent);
+}
+
+.tab-background {
+    border-radius: 0px !important;
+    background: var(--Main-Background) !important;
+    box-shadow: none !important;
+}
+
+.tab-text {
+    color: #838383
+}
+
+.tab-text[selected] {
+    color: #FFFFFF
+}
+
+.tab-background[selected] {
+    border-radius: 0px !important;
+    margin-block: 0px !important;
+    background-color: var(--Main-Accent) !important;
+    background-image: none !important;
+    color: #FFFFFF
+}
+
+.toolbar-items {
+
+}

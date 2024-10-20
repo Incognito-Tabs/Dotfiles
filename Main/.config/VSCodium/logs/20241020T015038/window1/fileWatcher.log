@@ -1,0 +1,3 @@
+2024-10-20 01:57:23.363 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-20 02:11:39.051 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-20 02:23:46.754 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/incognito/.dotfiles)

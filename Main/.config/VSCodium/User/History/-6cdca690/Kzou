@@ -1,0 +1,18 @@
+{
+    "label" : "bios",
+    "action" : "systemctl reboot --firmware-setup",
+    "text" : "BIOS",
+    "keybind" : "b"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "SHUTDOWN",
+    "keybind" : "s"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}

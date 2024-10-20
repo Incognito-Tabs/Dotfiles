@@ -1,0 +1,18 @@
+2024-10-19 22:44:54.449 [info] Started local extension host with pid 6563.
+2024-10-19 22:44:57.900 [info] [perf] Render performance baseline is 34ms
+2024-10-19 23:11:00.893 [info] Started local extension host with pid 27506.
+2024-10-19 23:11:02.776 [info] Started local extension host with pid 27602.
+2024-10-19 23:11:03.533 [error] No registered selector for ID: ms-vscode.npm-command
+2024-10-19 23:11:04.999 [info] Started local extension host with pid 27685.
+2024-10-19 23:11:05.732 [error] No registered selector for ID: ms-vscode.npm-command
+2024-10-19 23:11:06.757 [info] Started local extension host with pid 27728.
+2024-10-19 23:11:07.427 [error] No registered selector for ID: ms-vscode.npm-command
+2024-10-19 23:17:26.871 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.untitledWorkspace
+2024-10-19 23:17:27.654 [info] [lifecycle]: Shutdown was prevented (id: veto.untitledWorkspace)
+2024-10-19 23:17:29.793 [info] Started local extension host with pid 29432.
+2024-10-19 23:17:32.503 [info] [perf] Render performance baseline is 34ms
+2024-10-19 23:30:52.399 [info] Started local extension host with pid 32521.
+2024-10-20 00:21:42.773 [error] [text file model] handleSaveError(860) - exit - resulted in a save error: Error: Unable to write file '/home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css' (Error: File Modified Since) file:///home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css
+2024-10-20 00:21:43.781 [error] [text file model] handleSaveError(860) - exit - resulted in a save error: Error: Unable to write file '/home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css' (Error: File Modified Since) file:///home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css
+2024-10-20 00:21:44.389 [error] [text file model] handleSaveError(860) - exit - resulted in a save error: Error: Unable to write file '/home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css' (Error: File Modified Since) file:///home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css
+2024-10-20 00:21:44.557 [error] [text file model] handleSaveError(860) - exit - resulted in a save error: Error: Unable to write file '/home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css' (Error: File Modified Since) file:///home/incognito/.mozilla/firefox/y7tvmx18.default-release/chrome/userChrome.css
