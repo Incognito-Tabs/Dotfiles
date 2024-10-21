@@ -1,51 +1,33 @@
-clear
+#!/bin/bash
+# Install.sh
 
+# Directories
 DOTFILES_DIR=$(pwd)
 COMMANDS_DIR="$DOTFILES_DIR/Commands"
 MAIN_DIR="$DOTFILES_DIR/Main"
 
-if [ -f "$COMMANDS_DIR/Pacman.sh" ]; then
-  echo "Running pacman.sh..."
-  bash "$COMMANDS_DIR/Pacman.sh"
-else
-  echo "Pacman.sh not found!"
-  exit 1
-fi
+# Function
+run_script() {
+  local Name=$1
+  local Path="$COMMANDS_DIR/$Name"
 
-sleep 0.3
-clear
+  if [ -f "$Path" ]; then
+    echo "Running" $Name
+    bash "$Path" "$MAIN_DIR"
+  else
+    echo "FAILED TO RUN, NOT FOUND."
+    exit 1
+  fi
 
-if [ -f "$COMMANDS_DIR/Paru.sh" ]; then
-  echo "Running paru.sh..."
-  bash "$COMMANDS_DIR/Paru.sh"
-else
-  echo "Paru.sh not found!"
-  exit 1
-fi
+  sleep 1
+  clear
+}
 
-sleep 0.3
-clear
+# Sequence
+run_script "Pacman.sh"
+run_script "Paru.sh"
+run_script "Essentials.sh"
+run_script "Transfer.sh"
+run_script "Zsh.sh"
 
-if [ -f "$COMMANDS_DIR/Essentials.sh" ]; then
-  echo "Running Essentials.sh..."
-  bash "$COMMANDS_DIR/Essentials.sh" "$MAIN_DIR"
-else
-  echo "Essentials.sh not found!"
-  exit 1
-fi
-
-sleep 0.3
-clear
-
-if [ -f "$COMMANDS_DIR/Transfer.sh" ]; then
-  echo "Running transfer.sh..."
-  bash "$COMMANDS_DIR/Transfer.sh" "$MAIN_DIR"
-else
-  echo "Transfer.sh not found!"
-  exit 1
-fi
-
-sleep 0.3
-clear
-
-echo "Installation complete!"
+echo -e "\033[0;32m$(figlet -f smslant "INSTALLATION COMPLETE")\033[0m"
