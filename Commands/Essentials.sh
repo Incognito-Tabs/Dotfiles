@@ -22,6 +22,7 @@ if gum confirm "Do you want to install essential AUR packages using paru?"; then
     "spicetify-cli"
     "flameshot"
     "nm-connection-editor"
+    "ttf-font-logos"
   )
 
   echo -e "\033[0;36mInstalling essential AUR packages...\033[0m"
